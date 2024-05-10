@@ -1,0 +1,104 @@
+body{
+    background-color: cadetblue;
+}
+*{
+    text-decoration: none;
+}
+.navbar{
+    margin: 10px;
+    padding: 10px;
+    width: 95%;
+    background: crimson; 
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+}
+.navdiv{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+li, a{
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.icon{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 1448px;
+    height: 735px;
+    text-align: center;
+    
+}
+.cen {
+    position: absolute;
+    color: rgb(237, 219, 219);
+    font-size: 50px;
+    color: var(--dl-color-primary-100);
+  z-index: 100;
+  max-width: 800px;
+  box-shadow: 5px 5px 10px 0px #171616;
+  text-align: center;
+  transition: 0.3s;
+  font-family: "Raleway";
+  line-height: 1.6;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+    }
+.icon,img{
+    margin-right: 40px;
+    display: flex; 
+    align-items: center;
+    overflow: hidden;
+}
+img{
+    width: 1448px;
+    height: 735px;
+}
+h1{
+    color: white;
+    margin: 10px 150px 20px 300px;
+    font-family:'Courier New', Courier, monospace;
+}
+h4{
+    margin: 50px 30px 20px 30px;
+    
+}
+h5, details{
+    margin: 1px 20px 10px 30px;
+}
+h1{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color:chocolate;
+  }
+  h3{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color:black;
+    background-color: brown;
+  }
+  h4{
+    margin: 20px;
+    padding: 10px;
+    /* color: white; */
+  }
+  li{
+    color: white;
+  }
+  a{
+    color: black;
+  }
+  
